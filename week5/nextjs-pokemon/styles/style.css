@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(69, 73, 112);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; /* Kartlar arasındaki boşluk */
+    justify-items: center; /* Nesneleri yatayda ortala */
+    align-items: center; /* Nesneleri dikeyde ortala */
+}
+  
+.pokeBtn{
+  color: rgb(233, 233, 233);
+  width: 200px;
+  background-color: rgb(46, 14, 142);
+  margin: 5px;
+}
+.bas{
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  align-items: center;
+  
+  
+}
